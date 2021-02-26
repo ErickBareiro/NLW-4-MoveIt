@@ -92,7 +92,7 @@ export function ChallengesProvider({
 
         setCurrentExperience(finalExperience);
         setActiveChallenge(null);
-        setChallengesCompleted(currentExperience + 1);
+        setChallengesCompleted(challengesCompleted + 1);
 
     }
 
